@@ -1,0 +1,33 @@
+img, .container-fluid
+{
+    width: 100%;
+    padding: 0px;
+}
+
+img.pano-photo
+{
+    z-index: -1;
+    display: inline;
+    height: 100%;
+}
+
+img.country-outline
+{
+    width: 33.3vw;
+    position: absolute;
+    z-index: 1;
+    top: 1.5vw;
+    left: 33.3vw;
+}
+
+div.post-container
+{
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    height: 50vh;
+}
+
+figure.blog-post
+{
+}

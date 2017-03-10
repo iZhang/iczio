@@ -1,0 +1,20 @@
+img, .container-fluid
+{
+    width: 100%;
+    padding: 0px;
+}
+
+img.pano-photo
+{
+    z-index: -1;
+    display: inline;
+}
+
+img.country-outline
+{
+    width: 33.3vw;
+    position: absolute;
+    z-index: 1;
+    top: 1.5vw;
+    left: 33.3vw;
+}
