@@ -1,0 +1,98 @@
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, .container-fluid
+{
+    width: 100%;
+    padding: 0px;
+}
+
+img.pano-photo
+{
+    border: 1px solid black;
+}
+
+img.country-outline
+{
+    width: 20vw;
+    position: absolute;
+    z-index: 1;
+    top: 8vh;
+    left: 40vw;
+}
+
+div.post-container
+{
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 50vh;
+}
+
+.carousel-control.left, .carousel-control.right 
+{
+    background-image: none
+}
+
+div.menu-bar
+{
+    border: 1px solid black;
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+div.dropdown
+{
+    float: left;
+    padding: .75vh 0vw 0vh 1vw;
+}
+
+div.share-icons
+{
+    text-align: right;
+    padding: .75vh 1vw .75vh 0vw;
+}
+
+.fa 
+{
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover 
+{
+    opacity: 0.9;
+}
+
+/* Facebook */
+.fa-facebook 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Twitter */
+.fa-twitter 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Reddit */
+.fa-reddit 
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
